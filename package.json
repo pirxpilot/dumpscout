@@ -1,0 +1,39 @@
+{
+  "name": "dumpscout",
+  "version": "0.0.0",
+  "description": "Dump/backup data from helpscout.com",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://pirxpilot.me"
+  },
+  "repository": "pirxpilot/dumpscout",
+  "license": "MIT",
+  "keywords": [
+    "helpscout"
+  ],
+  "dependencies": {
+    "async": "~2",
+    "debug": "*",
+    "mniam": "^1.6.1",
+    "rate-limit": "^0.1.1",
+    "superagent": "~2",
+    "yargs": "~12"
+  },
+  "devDependencies": {
+    "jshint": "~2",
+    "mocha": "~5",
+    "should": "~13"
+  },
+  "bin": {
+    "dumpscout": "bin/dumpscout"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "make check"
+  }
+}
