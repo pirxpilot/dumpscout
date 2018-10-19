@@ -1,6 +1,6 @@
 {
   "name": "dumpscout",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Dump/backup data from helpscout.com",
   "author": {
     "name": "Damian Krzeminski",
